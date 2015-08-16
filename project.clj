@@ -7,7 +7,8 @@
                  [org.clojure/data.json "0.2.6" :classifier "aot"]]
   :jvm-opts ^:replace ["-Xmx1g" "-server"]
   :plugins [[lein-npm "0.6.1"]]
-  :npm {:dependencies [[source-map-support "0.3.2"]]}
+  :npm {:dependencies [[source-map-support "0.3.2"]
+                       [express "4.13.3"]]}
   :source-paths ["src" "target/classes"]
   :clean-targets ["out/server/pow" "out/server/pow.js"]
   :target-path "target")

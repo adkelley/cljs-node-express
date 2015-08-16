@@ -8,8 +8,6 @@ FIXME: Write a paragraph about the library/project and highlight its goals.
 
 ## Setup
 
-npm install source-map-support
-
 Build your project once in dev mode with the following script and then open `index.html` in your browser.
 
     ./scripts/build
@@ -27,6 +25,8 @@ installable via brew):
 To get source map support in the Node REPL:
 
     lein npm install
+    
+this will also pull down ExpressJS
     
 To start a browser REPL:
     
