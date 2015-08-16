@@ -8,6 +8,8 @@ FIXME: Write a paragraph about the library/project and highlight its goals.
 
 ## Setup
 
+npm install source-map-support
+
 Build your project once in dev mode with the following script and then open `index.html` in your browser.
 
     ./scripts/build
