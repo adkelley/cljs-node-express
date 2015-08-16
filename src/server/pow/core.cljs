@@ -14,14 +14,10 @@
 (defn hello-node [req res]
   (.send res "NodeJS is working in ClojureScript"))
 
-(defn page-not-found [req res]
-  (.send res "Page not found"))
-
 (defn -main []
   (let [app (express)]
     (.get app "/" say-hello!)
     (.get app "/node" hello-node)
-    (.get app "" page-not-found)
     (.listen app 3000 (fn []
                         (println "Server started on port 3000")))))
 
